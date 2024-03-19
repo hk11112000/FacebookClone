@@ -1,0 +1,122 @@
+.mainContainer {
+  max-width: 25%;
+  min-width: 20%;
+  background-color: transparent;
+  height: 92vh;
+  min-height: 92vh;
+  position: sticky;
+  padding: 80px 13px 15px 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+
+  right: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  scrollbar-width: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+.birthdayContainer {
+  width: 344px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 16px 0;
+  gap: 13px;
+}
+.birthdayContainer h3 {
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  color: rgba(128, 125, 125, 0.822);
+}
+.birthdayInfoContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.birthdayInfoContainer svg {
+  font-size: 40px;
+  color: #1877f2;
+}
+
+.sectionLine {
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+}
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.contactHeadingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+.contactHeadingContainer span {
+  font-size: 18px;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  color: rgba(128, 125, 125, 0.822);
+  font-weight: 900;
+}
+.menuContactContainer {
+  display: flex;
+  gap: 19px;
+}
+.menuContactContainer svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.menuContainer {
+  display: flex;
+  cursor: pointer;
+  justify-content: start;
+  align-items: center;
+  padding: 10px 10px;
+  position: relative;
+  background-color: transparent;
+  border-radius: 9px;
+  width: 344px;
+  gap: 10px;
+}
+.menuContainer img {
+  height: 40px;
+  color: #e4e4e4;
+}
+.menuContainer h3 {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.menuContainer:hover {
+  background-color: #cbcdcf3a;
+}
+.menuContainer img {
+  border-radius: 50%;
+}
+.greenDotContainer svg {
+  color: rgb(9, 238, 9);
+  font-size: 18px;
+  position: absolute;
+  left: 37px;
+  bottom: 9px;
+}

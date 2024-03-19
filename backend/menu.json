@@ -1,0 +1,99 @@
+{
+  "menu": [
+    {
+      "id": "001",
+      "image": "/Friends.png",
+      "menuName": "Friends"
+    },
+    {
+      "id": "002",
+      "image": "/Memories.png",
+      "menuName": "Memories"
+    },
+    {
+      "id": "003",
+      "image": "/Saved.png",
+      "menuName": "Saved"
+    },
+    {
+      "id": "004",
+      "image": "/Feeds.png",
+      "menuName": "Feeds"
+    },
+    {
+      "id": "005",
+      "image": "/AdsManager.png",
+      "menuName": "Ads Manager"
+    },
+    {
+      "id": "006",
+      "image": "/Pages.png",
+      "menuName": "Pages"
+    },
+    {
+      "id": "007",
+      "image": "/BloodDonations.png",
+      "menuName": "Blood Donations"
+    },
+    {
+      "id": "008",
+      "image": "/ClimateSC.png",
+      "menuName": "Climate Science Center"
+    },
+    {
+      "id": "009",
+      "image": "/Events.png",
+      "menuName": "Events"
+    },
+    {
+      "id": "010",
+      "image": "/FacebookPay.png",
+      "menuName": "Facebook Pay"
+    },
+    {
+      "id": "011",
+      "image": "/Fundraisers.png",
+      "menuName": "Fundraisers"
+    },
+    {
+      "id": "012",
+      "image": "/GamingVideo.png",
+      "menuName": "Gaming video"
+    },
+    {
+      "id": "013",
+      "image": "/Groups.png",
+      "menuName": "Groups"
+    },
+    {
+      "id": "014",
+      "image": "/MarketPlace.png",
+      "menuName": "MarketPlace"
+    },
+    {
+      "id": "015",
+      "image": "/Messenger.png",
+      "menuName": "Messenger"
+    },
+    {
+      "id": "016",
+      "image": "/MessengerKids.png",
+      "menuName": "Messenger Kids"
+    },
+    {
+      "id": "017",
+      "image": "/PlayGames.png",
+      "menuName": "Play Games"
+    },
+    {
+      "id": "018",
+      "image": "/RecentadActivity.png",
+      "menuName": "Recent ad activity"
+    },
+    {
+      "id": "019",
+      "image": "/Video.png",
+      "menuName": "Video"
+    }
+  ]
+}

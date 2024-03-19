@@ -1,0 +1,14 @@
+.mainContainer {
+  background-color: transparent;
+  height: fit-content;
+  min-height: 100vh;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-top: 90px;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 40px;
+}

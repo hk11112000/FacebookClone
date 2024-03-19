@@ -1,0 +1,130 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+.leftContainer {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  width: 25%;
+}
+.leftContainer .searchBar svg {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.863) !important;
+}
+.leftContainer svg {
+  font-size: 45px;
+  color: #1877f2;
+  cursor: pointer;
+}
+.middleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.rightContainer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 25%;
+  gap: 8px;
+}
+.searchBar {
+  display: flex;
+  background-color: #f0f2f5;
+  padding: 8px 10px;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  border-radius: 20px;
+  width: 220px;
+}
+.searchBar div {
+  border: 0;
+  background-color: #f0f2f5;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  color: rgba(0, 0, 0, 0.603);
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.searchBar input:focus-within {
+  border: none;
+}
+.middleContainer svg {
+  color: #65676b;
+  font-size: 31px;
+  padding: 15px 54px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.middleContainer svg:hover {
+  background-color: rgba(99, 99, 102, 0.178);
+  color: #1877f2;
+}
+.rContainer {
+  background-color: rgba(99, 99, 102, 0.178);
+  padding: 10px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.rContainer:hover {
+  background-color: rgba(99, 99, 102, 0.301);
+}
+.rContainer svg {
+  margin: auto;
+  font-size: 24px;
+}
+
+.rContainerImg {
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgba(99, 99, 102, 0.178);
+  cursor: pointer;
+}
+.rContainerImg:hover {
+  background-color: rgba(99, 99, 102, 0.301);
+}
+.rContainerImg img {
+  height: auto;
+}
+.middleContainer div {
+  text-decoration-line: none;
+  background-color: rgba(0, 0, 0, 0.671);
+  text-align: center;
+  width: fit-content;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 73px;
+  padding: 5px 10px;
+  border-radius: 9px;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  display: none;
+}
+.middleContainer a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.middleContainer svg:hover + div {
+  display: flex;
+}
+.blueColor {
+  color: #1877f2;
+}

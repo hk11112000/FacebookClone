@@ -1,0 +1,96 @@
+.mainContainer {
+  max-width: 25%;
+  min-width: 20%;
+  background-color: transparent;
+  height: 92vh;
+  min-height: 92vh;
+  position: sticky;
+  padding: 80px 13px 15px 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  scrollbar-width: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+.menuContainer {
+  display: flex;
+  cursor: pointer;
+  justify-content: start;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: transparent;
+  border-radius: 9px;
+  width: 344px;
+  gap: 10px;
+}
+.sectionLine {
+  border-bottom: 1px solid grey;
+  margin: 10px 0;
+  width: 344px;
+}
+.menuContainer img {
+  border-radius: 50%;
+}
+.menuContainer img {
+  height: 30px;
+
+  mix-blend-mode: multiply;
+}
+.menuContainer h3 {
+  font-size: 16px;
+  color: black;
+  font-weight: 550;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.menuContainer:hover {
+  background-color: #cbcdcf3a;
+}
+.showMoreContainer {
+  display: flex;
+  cursor: pointer;
+  justify-content: start;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: transparent;
+  border-radius: 9px;
+  width: 344px;
+  gap: 10px;
+}
+.showMoreContainer svg {
+  font-size: 40px;
+  color: black;
+}
+.showMoreContainer h3 {
+  font-size: 16px;
+  color: black;
+  font-weight: 550;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.showMoreContainer:hover {
+  background-color: #cbcdcf3a;
+}
+.extraInfoContainer {
+  background-color: transparent;
+  border-radius: 9px;
+  width: 344px;
+  font-size: 13.8px;
+  position: static;
+  margin-bottom: 20px;
+  bottom: 0;
+}

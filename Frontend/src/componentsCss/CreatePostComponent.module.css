@@ -1,0 +1,115 @@
+.mainContainer {
+  width: 68%;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 18px;
+  border-radius: 9px;
+  height: fit-content;
+}
+.sectionLine {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.637);
+  margin-bottom: 10px;
+}
+.firstContainer {
+  display: flex;
+  gap: 8px;
+  padding: 0 0 10px 0;
+}
+.firstContainer img {
+  border-radius: 50%;
+}
+.firstContainer input {
+  width: 100%;
+  border: solid transparent;
+  background: #f0f2f5;
+  padding: 0 10px;
+  border-radius: 20px;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+.firstContainer input:hover {
+  background-color: #d9dadf;
+}
+.firstContainer input:focus {
+  border: solid transparent;
+}
+.firstContainer input:focus-within {
+  border: solid transparent;
+}
+.secondContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.innerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 12px;
+  gap: 10px;
+  cursor: pointer;
+}
+.innerDiv svg {
+  font-size: 30px;
+  color: #f02849;
+}
+.innerDiv span {
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  color: #666769e5;
+  font-weight: 600;
+}
+.innerDiv1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 12px;
+  gap: 10px;
+  cursor: pointer;
+}
+.innerDiv1 svg {
+  font-size: 30px;
+  color: #44bc61;
+}
+.innerDiv1 span {
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  color: #666769e5;
+  font-weight: 600;
+}
+.innerDiv2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 12px;
+  gap: 10px;
+  cursor: pointer;
+}
+.innerDiv2 svg {
+  font-size: 30px;
+  color: #f9ca5d;
+}
+.innerDiv2 span {
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  color: #666769e5;
+  font-weight: 600;
+}
+
+.innerDiv:hover {
+  background-color: #f0f2f5;
+}
+.innerDiv1:hover {
+  background-color: #f0f2f5;
+}
+.innerDiv2:hover {
+  background-color: #f0f2f5;
+}

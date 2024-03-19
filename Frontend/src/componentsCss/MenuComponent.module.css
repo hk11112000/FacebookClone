@@ -1,0 +1,29 @@
+.menuContainer {
+  display: flex;
+  cursor: pointer;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 8px;
+  background-color: transparent;
+  border-radius: 9px;
+  gap: 10px;
+}
+
+.menuContainer svg {
+  border-radius: 50%;
+  background-color: #bfc2c7b9;
+  color: #1877f2;
+  padding: 5px;
+}
+.menuContainer svg {
+  font-size: 25px;
+}
+.menuContainer h3 {
+  font-size: 16px;
+  color: black;
+  font-weight: 550;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.menuContainer:hover {
+  background-color: #cbcdcf65;
+}

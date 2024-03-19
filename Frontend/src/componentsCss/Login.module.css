@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.loginContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f0f2f5;
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.logoContainer {
+  height: 106px;
+  width: 100%;
+  margin: auto;
+}
+.loginImgContainer {
+  height: 106px;
+  margin: -28px;
+}
+.loginPContainer {
+  font-size: 24px;
+  line-height: 28px;
+
+  width: 60%;
+  font-family: inherit;
+  font-weight: 200;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+@media (max-width: 1161px) {
+  .loginContainer {
+    height: 100vh;
+  }
+  .loginPContainer {
+    width: 59%;
+  }
+  .logoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainLoginContainer {
+    height: 106px;
+    margin: 0 auto;
+    width: 602px;
+  }
+}
+@media (max-width: 600px) {
+  .loginImgContainer {
+    height: 76px;
+  }
+  .loginPContainer {
+    width: 100%;
+    text-align: center;
+  }
+}

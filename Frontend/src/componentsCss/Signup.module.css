@@ -1,0 +1,168 @@
+.mainContainer {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.mainSegment {
+  font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+  width: 432px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px 10px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hrContainer {
+  content: " ";
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+}
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.mainSegment svg {
+  position: relative;
+  float: right;
+  font-size: 25px;
+  color: #0000007e;
+  font-weight: 900;
+  cursor: pointer;
+}
+.heading {
+  font-size: 34px;
+}
+.heading2 {
+  font-size: 14px;
+  color: #0000007e;
+}
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.larger {
+  grid-column: span 2;
+  padding: 11px;
+  background-color: rgba(128, 128, 128, 0.103);
+  border-radius: 5px;
+  border: 0.5px solid grey;
+}
+.inputSegment {
+  padding: 11px;
+  border-radius: 5px;
+  border: 0.5px solid grey;
+  background-color: rgba(128, 128, 128, 0.103);
+}
+.dobContainer {
+  grid-column: span 2;
+}
+.dobInputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+.inputSegmentdob {
+  padding: 11px;
+  border-radius: 5px;
+  border: 0.5px solid grey;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.103);
+}
+.h6Container {
+  color: #00000098;
+  float: left;
+  padding-bottom: 3px;
+}
+.genderContainer {
+  grid-column: span 2;
+}
+.genderInput {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.femaleInput {
+  border: 0.5px solid grey;
+  padding: 11px;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.103);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.maleInput {
+  border: 0.5px solid grey;
+  padding: 11px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.103);
+  width: 100%;
+}
+.checkbox {
+  border-radius: 50%;
+}
+.infoContainer {
+  grid-column: span 2;
+}
+.pContainer {
+  font-size: 11px;
+  padding-top: 8px;
+  color: #000000c7;
+  padding-bottom: 8px;
+}
+
+.submitBtn {
+  margin: auto;
+  width: 100%;
+  position: relative;
+  left: 50%;
+  border-radius: 12px;
+  padding: 8px;
+  background-color: #00a400;
+  color: white;
+  font-size: 20px;
+  border: solid transparent;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.inputContainer {
+  grid-column: span 2;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.passSegment {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0.5px solid grey;
+  background-color: rgba(128, 128, 128, 0.103);
+  width: 100%;
+}
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconContainer svg {
+  color: rgba(0, 0, 0, 0.829);
+}
